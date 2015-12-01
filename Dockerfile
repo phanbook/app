@@ -1,7 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER YOUR NAME <YOUR EMAIL>
 
-
 # run update  and other useful libraries
 RUN apt-get update -y && \
     apt-get install -y \
